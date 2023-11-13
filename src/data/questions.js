@@ -39,7 +39,7 @@ let questions = [
       difficulty: "easy",
       question: "O Artigo 2º dos Direitos Humanos destaca a classificação de discriminação com base em quais características?",
       answer: "Todo homem tem direito a moradia",
-      image: "./src/img/4.jpg", 
+      image: "./src/img/4.png", 
       options: [
         "Todo homem tem direito à liberdade de locomoção e independência",
         "Ninguém será submetido a tortura nem a tratamento ou castigo cruel",
