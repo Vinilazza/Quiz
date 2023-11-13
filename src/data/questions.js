@@ -1,17 +1,20 @@
 // creating an array and passing the number, questions, options, and answers
+
 let questions = [
     {
       numb: 1,
       category: "General Knowledge",
       type: "multiple",
-      difficulty: "easy",
-      question: "What does HTML stand for?",
-      answer: "Hyper Text Markup Language",
+      difficulty: "easy", 
+      image: "./src/img/1.jpg", 
+      question: "O artista Otávio Roth criou em suas obras, ilustrações para representar os direitos humanos, na representação do artigo 13º ele fala sobre?",
+      answer: "Todo homem tem direito à liberdade de locomoção e independência",
+
       options: [
-        "Hyper Text Preprocessor",
-        "Hyper Text Markup Language",
-        "Hyper Text Multiple Language",
-        "Hyper Tool Multi Language",
+        "Todo homem tem direito a uma moradia",
+        "Todo homem tem direito à liberdade de locomoção e independência",
+        "Todo homem tem direito à educação",
+        "Todo homem tem direito de regressar",
       ],
     },
     {
@@ -19,13 +22,14 @@ let questions = [
       category: "General Knowledge",
       type: "multiple",
       difficulty: "easy",
-      question: "What does CSS stand for?",
-      answer: "Cascading Style Sheet",
+      question: "Assinale a alternativa que representa a imagem de Otávio Roth",
+      answer: "Todo homem tem direito a moradias",
+      image: "./src/img/2.jpg", 
       options: [
-        "Common Style Sheet",
-        "Colorful Style Sheet",
-        "Computer Style Sheet",
-        "Cascading Style Sheet",
+        "Todo homem tem direito à liberdade de locomoção e independência",
+        "Ninguém será submetido a tortura nem a tratamento ou castigo cruel",
+        "Todo homem tem direito a moradia",
+        "Todo homem é capaz de decidir  sobre sua nacionalidade"
       ],
     },
     {
@@ -33,60 +37,15 @@ let questions = [
       category: "General Knowledge",
       type: "multiple",
       difficulty: "easy",
-      question: "What does PHP stand for?",
-      answer: "Hypertext Preprocessor",
+      question: "O Artigo 2º dos Direitos Humanos destaca a classificação de discriminação com base em quais características?",
+      answer: "Todo homem tem direito a moradia",
+      image: "./src/img/4.jpg", 
       options: [
-        "Hypertext Preprocessor",
-        "Hypertext Programming",
-        "Hypertext Preprogramming",
-        "Hometext Preprocessor",
+        "Todo homem tem direito à liberdade de locomoção e independência",
+        "Ninguém será submetido a tortura nem a tratamento ou castigo cruel",
+        "Todo homem tem direito a moradia",
+        "Todo homem é capaz de decidir  sobre sua nacionalidade"
       ],
-    },
-    {
-      numb: 4,
-      category: "General Knowledge",
-      type: "multiple",
-      difficulty: "easy",
-      question: "What does SQL stand for?",
-      answer: "Structured Query Language",
-      options: [
-        "Stylish Question Language",
-        "Stylesheet Query Language",
-        "Statement Question Language",
-        "Structured Query Language",
-      ],
-    },
-    {
-      numb: 5,
-      category: "General Knowledge",
-      type: "multiple",
-      difficulty: "easy",
-      question: "What does XML stand for?",
-      answer: "eXtensible Markup Language",
-      options: [
-        "eXtensible Markup Language",
-        "eXecutable Multiple Language",
-        "eXTra Multi-Program Language",
-        "eXamine Multiple Language",
-      ],
-    },
-    {
-      numb: 6,
-      category: "General Knowledge",
-      type: "multiple",
-      difficulty: "easy",
-      question: "Qual o melhor time?",
-      answer: "Palmeiras",
-      options: ["Flamengo", "São Paulo", "Palmeiras", "Santos"],
-    },
-    {
-      numb: 7,
-      category: "General Knowledge",
-      type: "multiple",
-      difficulty: "easy",
-      question: "Virgin Trains, Virgin Atlantic and Virgin Racing, are all companies owned by which famous entrepreneur?   ",
-      answer: "Richard Branson",
-      options: ["Richard Branson","Alan Sugar", "Donald Trump", "Bill Gates"],
-    },
+    }
   ];
   

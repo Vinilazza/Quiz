@@ -19,6 +19,15 @@
     background: #007bff;
 }
 
+.que_text img {
+    max-width: 100%;
+    width: 200px;
+    height: auto;
+    margin-top: 10px; /* Ajuste conforme necessário */
+  }
+
+  
+
 /* Home - index.html */
  
 
